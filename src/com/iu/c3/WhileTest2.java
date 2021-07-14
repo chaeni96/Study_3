@@ -62,6 +62,8 @@ public class WhileTest2 {
 			}
 		
 		}
+		
+		sc.close();
 		System.out.println("WhileTest2 Finish");
 	}
 	

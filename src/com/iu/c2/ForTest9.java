@@ -34,6 +34,8 @@ public class ForTest9 {
 			}
 		
 		}
+		
+		sc.close();
 		System.out.println("ForTest9 Finish");
 	}
 
