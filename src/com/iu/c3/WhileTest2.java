@@ -75,7 +75,7 @@ public class WhileTest2 {
 			
 			for(level = 1;level<15;level++) {
 				if(level%5 ==0) {
-					gold = gold + level/5*1000;
+					gold = gold + level*200;
 					System.out.println(gold+" gold 지급");
 				}
 				System.out.println("현재레벨 : " +level);
@@ -85,7 +85,7 @@ public class WhileTest2 {
 				System.out.println("=== 축! 레벨 up ===");
 			}
 			System.out.println("최종 레벨 : "+level);
-			gold = gold + level/5*1000;
+			gold = gold + level*200;
 			System.out.println("최종 Gold : "+gold);
 		}
 		
