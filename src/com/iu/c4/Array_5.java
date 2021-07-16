@@ -29,13 +29,13 @@ public class Array_5 {
 			switch (select) {
 			case 1 : 
 				System.out.println("정보를 출력합니다");
-				if(ar.length==0) {
-					System.out.println("출력할 데이터가 없어요");
-					continue;
-					}
-				
+		
 				for(int i=0; i<ar.length;i++){
 					System.out.println(ar[i]);
+				}
+				if(ar.length==0) {
+					System.out.println("출력할 데이터가 없습니다");
+					continue;
 				}
 				break;
 				
@@ -55,7 +55,7 @@ public class Array_5 {
 			case 3 :
 				System.out.println("정보를 삭제합니다");
 				if(ar.length==0) {
-					System.out.println("더이상 삭제할 데이터가 없어요");
+					System.out.println("더이상 삭제할 데이터가 없습니다");
 					continue;
 				}
 				int [] ar2 = new int[ar.length-1];
