@@ -29,6 +29,10 @@ public class Array_5 {
 			switch (select) {
 			case 1 : 
 				System.out.println("정보를 출력합니다");
+				if(ar.length==0) {
+					System.out.println("출력할 데이터가 없어요");
+					continue;
+					}
 				
 				for(int i=0; i<ar.length;i++){
 					System.out.println(ar[i]);
